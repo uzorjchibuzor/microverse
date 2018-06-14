@@ -175,3 +175,52 @@ main h4 {
     font-size: 1.50em;
     margin: 20px 0px;
 }
+
+aside {
+    display: block;
+    background: #f6f9fa;
+     border: 1px solid #e5e5e5;
+
+    
+}
+
+.search-page {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: .5em;
+
+}
+
+aside i {
+    color: #888;
+}
+
+
+.fa-caret-down, .far {
+    float: right;
+    margin-right: 10px;
+}
+
+ #user-search {
+    background-color: #fdfdfd;
+    padding: 30px;
+ }
+
+ aside h5 {
+     padding: 10px;
+     font-size: 14px;
+     text-align: center;
+ }
+
+ aside .article-img {
+    margin: 30px 0px;
+    width: 100%;
+    border-radius: 1px;
+}
+
+.map-top {
+    display: inline-block;
+    padding-left: 80px;
+}
