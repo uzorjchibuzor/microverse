@@ -10,29 +10,32 @@ body {
 header {
     display: block;
     max-width: 320px;
+    background: #fff;
 }
 
-    header .menu-clicker {
-        background: #ccc;
-        height: 2em;
+    header #menu-clicker {
+        padding: 5px 5px 5px 15px;
+        font-size: 2em;
         width: 100%;
+
+        cursor: pointer;
+        color: #888;
     }
 
-    header .logo {
+    header #logo {
         text-align: center;
     }
 
-    header .logo img {
+    header #logo img {
         width: 30%;
     }
 
-    header .logo .title {
+    header #logo .title {
         font-size: 2em;
         text-transform: uppercase;
-        font-weight: bold;
     }
 
-    header .logo .description {
+    header #logo .description {
         font-size: 1em;
         font-weight: bold;
     }
