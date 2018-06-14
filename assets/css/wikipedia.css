@@ -39,3 +39,12 @@ header {
         font-size: 1em;
         font-weight: bold;
     }
+
+    #menu a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    #menu ul  {
+        list-style: none;
+    }
