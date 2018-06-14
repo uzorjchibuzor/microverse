@@ -3,15 +3,20 @@ body {
     font-size: 16px;
 }
 
-
-
 .container {}
 
 header {
     display: block;
     max-width: 320px;
-    background: #fff;
+    background: #f5f5f5;
+    height: 100%;
+    position: absolute;
 }
+
+    header .top {
+        background: #fff;
+        padding-bottom: 30px;
+    }
 
     header #menu-clicker {
         padding: 5px 5px 5px 15px;
@@ -37,7 +42,23 @@ header {
 
     header #logo .description {
         font-size: 1em;
-        font-weight: bold;
+    }
+
+
+#menu {
+    padding: 0px 0px 0px 20px;
+    font-size: 1.6em;
+}
+
+    #menu .contents {
+        color: #999;
+        display: block;
+        padding: 5px;
+
+        border: 2px solid #ddd;
+        border-left: none;
+        border-right: none;
+        text-align: center;
     }
 
     #menu a {
@@ -48,3 +69,26 @@ header {
     #menu ul  {
         list-style: none;
     }
+
+    #menu ul ul {
+        display: block;
+        padding: 10px;
+    }
+
+    #menu ul li a, #menu ul li span {
+        display: block;
+        padding: 5px 5px 5px 30px;
+        font-weight: bold;
+    }
+
+    #menu ul li, #menu ul li span  {
+        border-bottom: 1px solid #ddd;
+    }
+
+        #menu ul li ul li {
+            border: none;
+        }
+
+        #menu ul li ul a {
+            font-weight: normal;
+        }
