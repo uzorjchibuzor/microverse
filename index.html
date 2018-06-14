@@ -7,6 +7,7 @@
     <title>Wikipedia Concept Page</title>
 
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <link rel="stylesheet" href="assets/css/wikipedia.css">
 </head>
@@ -14,7 +15,7 @@
 
     <div class="container">
 
-        <header class='col-1-3'>
+        <header class='col-20'>
 
             <div class='top'>
                 <div id='menu-clicker'>
@@ -75,7 +76,7 @@
 
         </header>
 
-        <main class= "col-2-3">
+        <main class= "col-60">
 
             <div class='text-container'>
 
@@ -104,25 +105,52 @@
 
         </main>
 
-        <aside class = "col-1-3">
+        <aside class = "col-20">
             <div id = "user-search">
-                <i class="fas fa-search"></i> 
+                <i class="fas fa-search"></i>
                 <input type = "text" class = "search-page">
                 <i class="fas fa-caret-down"></i>
                 <i class="far fa-user"></i>
 
+                <div class='float-fix'></div>
             </div>
 
-            <h5>MARTINIQUE</h5>
+            <div class='article-name border-topdown'>
+                <h5>MARTINIQUE</h5>
+            </div>
 
             <img class = "article-img" src="assets/img/palm-tree.jpg" alt="palm-tree">
 
-            <p class = "map-top">Country</p>
+            <div class='location border-topdown'>
+                <div class='country-span'>Country</div>
+                <div class='country-name'>France</div>
+                <div class='float-fix'></div>
+            </div>
 
-            <p class = "map-top">France</p>
+            <div class='map'>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167299.25511384738!2d-61.11055813829858!3d14.687308701632862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c6aa0f90066070d%3A0xe1001b1217afe7b0!2sMartinique!5e0!3m2!1sen!2sng!4v1529006346259" frameborder="0" allowfullscreen></iframe>
+            </div>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167299.25511384738!2d-61.11055813829858!3d14.687308701632862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c6aa0f90066070d%3A0xe1001b1217afe7b0!2sMartinique!5e0!3m2!1sen!2sng!4v1529006346259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            
+            <div class='geo border-topdown'>
+
+                <div class='area'>
+                    <span class='geo-title'>Area</span>
+                    <span class='geo-value'>
+                        1128
+                        <span class='text-muted'>km<sup>2</sup></span>
+                    </span>
+                </div>
+
+                <div class='density'>
+                    <span class='geo-title'>Density</span>
+                    <span class='geo-value'>
+                        340
+                        <span class='text-muted'>hab/km<sup>2</sup></span>
+                    </span>
+                </div>
+
+                <div class='float-fix'></div>
+            </div>
 
         </aside>
 
