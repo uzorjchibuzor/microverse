@@ -100,7 +100,7 @@ header {
 
 #menu {
     padding: 0px 0px 0px 20px;
-    font-size: 1.6em;
+    font-size: 1.1em;
 }
 
     #menu .contents {
@@ -168,8 +168,8 @@ main .text-container {
 main .notice {
     background: #ddd;
     border-radius: 10px;
-    margin: 10px auto;
-    padding: 5px;
+    margin: 10px auto 40px auto;
+    padding: 5px 15px;
     display: inline-block;
 
 
@@ -191,7 +191,7 @@ main .article-img {
 
 main h1 {
     font-size: 4em;
-    margin: 30px 30px;
+    margin: 30px auto;
 }
 
 main h2 {
@@ -216,7 +216,7 @@ aside {
 }
 
 .search-page {
-    width: 70%;
+    width: 60%;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -252,6 +252,7 @@ aside i {
     width: 100%;
     border-radius: 1px;
     margin: 0px !important;
+    display: block;
 }
 
 
