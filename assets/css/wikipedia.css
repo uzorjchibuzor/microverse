@@ -9,6 +9,16 @@ body {
 
 }
 
+.col-1-3 {
+    width: 25%;
+    display: inline-block;
+}
+
+.col-2-3 {
+    width: 50%;
+    display: inline-block;
+}
+
 .container {
     display: flex;
     flex-flow: row;
@@ -111,6 +121,3 @@ header {
             font-weight: normal;
         }
 
-
-#main {
-}
