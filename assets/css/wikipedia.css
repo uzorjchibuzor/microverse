@@ -154,6 +154,17 @@ header {
             font-weight: normal;
         }
 
+    #menu .dropdown-content {
+        display: block;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+    }
+
+    #menu .dropdown-content.hidden {
+        display: none;
+        opacity: 0;
+    }
+
 
 
 main {
@@ -347,15 +358,14 @@ aside i {
     }
 
     header {
-        height: 3em;
-        overflow: hidden;
-        transition: all 0.2s ease;
+        transition: all 0.5s ease;
         position: fixed;
+        overflow: hidden;
     }
 
-        header.active {
-            height: auto;
-            position: absolute;
+        header.hidden {
+            max-height: 3em !important;
+            position: fixed;
         }
 
 
