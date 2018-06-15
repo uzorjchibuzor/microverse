@@ -349,6 +349,7 @@ aside i {
     header {
         height: 3em;
         overflow: hidden;
+        transition: all 0.2s ease;
         position: fixed;
     }
 
