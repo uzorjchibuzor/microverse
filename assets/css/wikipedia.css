@@ -1,13 +1,16 @@
-
 html {
-    height: 100%;
+    min-height: 100%;
+    background: #069;
+    background: linear-gradient(to bottom, #5077ae 0%,#90a7ca 15%,#4d5e67 74%,#3d5158 84%,#4a6a7b 100%);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
 }
 
 
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    background: #069;
 }
 
 .whole-page {
@@ -37,17 +40,7 @@ body {
 }
 
 .float-fix {
-        clear:both;
-    }
-
-.col-1-3 {
-    width: 25%;
-    display: inline-block;
-}
-
-.col-2-3 {
-    width: 50%;
-    display: inline-block;
+    clear:both;
 }
 
 .container {
@@ -183,6 +176,14 @@ main {
 
     z-index: 7777;
 }
+
+    main .edit-article {
+        text-align: right;
+        font-size: 1.7em;
+        color: #bbb;
+
+        padding: 20px;
+    }
 
 main .text-container {
     width: 80%;
@@ -335,6 +336,7 @@ aside i {
 .map iframe {
     width: 100%;
     height: 300px;
+    border: none;
 }
 
 .anthem .fas {
@@ -344,12 +346,17 @@ aside i {
 
 .play-icon {
     float: left;
+    cursor: pointer;
 }
+
+    .play-icon:hover {
+        font-size: 1.2em;
+    }
 
 .anthem-text {
     float: left;
     padding-top: 14px;
-    
+
 }
 
 

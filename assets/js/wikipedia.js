@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
         e.addEventListener('click', function(e){
             console.log(this);
             this.nextElementSibling.classList.toggle('hidden');
-        
+
         });
 
 
@@ -33,9 +33,14 @@ document.addEventListener("DOMContentLoaded", function(){
 
        if (audio.paused) {
            audio.play();
+
+           this.className = 'fas fa-stop-circle';
+
        } else {
            audio.pause();
            audio.currentTime = 0;
+
+           this.className = 'fas fa-play-circle';
        }
     });
 
