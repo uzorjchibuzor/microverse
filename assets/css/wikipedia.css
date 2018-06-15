@@ -382,9 +382,6 @@ aside i {
     .col-20 { width: 100%; }
     .col-60 { width: 100%; }
 
-    main {
-        margin-top: 3em;
-    }
 
     main h1 {
         font-size: 3em;
@@ -405,6 +402,16 @@ aside i {
             max-height: 3em !important;
             position: fixed;
         }
+
+    .edit-article {
+        position: fixed;
+        top: 5px;
+        right: 2%;
+        z-index: 9999;
+
+        color: #888 !important;
+        padding: 0px !important;
+    }
 
 
 
